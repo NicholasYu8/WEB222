@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Info Login Nicholas Yu</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <header>
+		<div class="Top">
+			<h2>
+            Reflection 
+			</h2>
+            <img src="https://www.logo.wine/a/logo/Seneca_College/Seneca_College-Logo.wine.svg" width ="100" height= "100" alt="logo" />
+		</div>
+  </head>
+  <nav>
+    <div class="center">
+    <ul>	
+        <li><a href="honesty.html">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+    </ul>
+    </div>
+</nav>
+  <body>
+    <div class="container">
+      <form
+        name="myForm"
+        action=""
+        class="form"
+        onsubmit="event.preventDefault();validateForm()"
+      >
+        <table class="rowelement">
+          <tr>
+            <td>Email Address:</td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                value="email"
+                required
+                placeholder="Enter a valid email address"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>First Name: </label></td>
+            <td>
+              <input
+                type="text"
+                name="fname"
+                value="fname"
+                placeholder="First Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Last Name: </label></td>
+            <td>
+              <input
+                type="text"
+                name="lname"
+                value="lname"
+                placeholder="Last Name"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Password: </label></td>
+            <td>
+              <input
+                type="password"
+                value="password"
+                name="password"
+                placeholder="Password"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Confirm Password: </label></td>
+            <td>
+              <input
+                type="password"
+                value="confirm_password"
+                name="confirm_password"
+                placeholder="Password"
+              />
+            </td>
+          </tr>
+          <tr>
+        <td><label>Education Status: </label></td>
+        <td>
+            <select name="Education Status" id="status">
+            <option value="Graduated">Graduated</option>
+            <option value="Current enrolled">Current Enrolled</option>
+            <option value="Did not graduate">Did not graduate</option>
+                />
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" id="age" /></td>
+        </tr>
+          <tr>
+            <td>
+              <input type="submit" name="submit" value="Submit" />
+            </td>
+
+            <td>
+              <input type="reset" name="reset" value="Reset" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <script src="info.js"></script>
+    <footer>
+        <div class="center">
+            &copy; Nicholas Yu
+  <a href="https://github.com/NicholasYu8/WEB222">https://github.com/NicholasYu8/WEB222</a></p>
+</footer>
+
+  </body>
+</html>
